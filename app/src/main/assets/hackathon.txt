@@ -1,0 +1,115 @@
+Hackathon
+
+Target Participants: Anyone who is tech geek, one who has potential to change the world, one who has solution to the most common problems of our country (All branch)
+
+Description: The event is about 6 hours of marathon coding to check the innovations in the most demanded technologies made by the participants, to be judged as mentioned in description of various rounds.
+
+Number of Rounds: 3
+
+Team size: 1-4 (Maximum)	
+Registration Fee :  120 per team
+
+Student Coordinator : Faizan vekariya (MCA 4) (8866121487)
+		Shahnawaz Shaikh (MCA 4)( 9727688439)
+		    Jainesh Desai (MCA 4) (7574986002)
+
+Event Date     :  On or before2th  March 2018 (Round 1 - Idea submission)
+                  9th March 2018 (Round 2 - Prototype Development)
+
+Event Time   :  10:00 AM to 4:00 PM (Round2)
+	
+
+Expected strength/skill of participants: Awareness of most demanded technologies, Potential to implement the prototype of innovative idea within 6 hours, Skill to present and market the implemented product or idea
+
+
+Event  Detail   :
+
+
+Expected Themes:
+
+1.	Android / IOS
+2.	Ecommerce 
+3.	GPS or MAP
+4.	Digital Payment 
+5.	UI/UX 
+6.	Machine Learning , AI, Computer Vision
+7.	Aadhar
+8.	Block Chain 
+9.	IOT
+10.	Travel 
+11.	Social Marketing
+12.	Chat Bots
+13.	Analytics & Campaign Management for retail shops
+14.	Marketing solution using IOT
+15.	Marketing Trough Mobile Application
+16.	Games
+17.	Smart Automation
+18.	AR/VR
+
+
+
+
+Requirements of Events :
+
+Bring your own laptop for programming (pre-installed with the requisite software and libraries you may need; you need to come with your own internet connection, Internet connection will not provided at Hackathon.
+
+
+Round 1: Idea Submission
+
+Submission of your idea and synopsis of the development wireframe
+
+      Short listed selected entry will go for the Round 2. 
+
+Timeline for submission of synopsis - On or before March 2, 2018
+
+Submission of synopsis at Email :dduhackathon18@gmail.com
+
+Intimation of Selected entries via email: 6thMarch 2018 
+     Synopsis Format is attached.
+
+Expected result:
+
+1.	Framework of application or Solution in terms of technical and business innovation or 
+       helpful to society
+2.	Idea of demonstrable outcome
+
+
+Round 2: Developing Prototype
+
+The announcement of selected participants and an invitation to work on the prototype of your idea 
+at DDU campus.
+
+
+Expected result:
+
+1.	Working prototype
+2.	Solutions-based design
+
+All team needs to demonstrate and present their application in front of a panel of judges. Winners will be announced on the same day.
+
+Round 3 : Demo representation
+
+All teams will present a demo at the end of the Hackathon which will be the basis for judging the winners.The maximum time limit for a presentation will be 5-7 minutes per team.
+
+
+
+
+
+
+Rules :
+
+1.  Round -1 Teams
+
+-	The hackathon is a team event with the team size limited to a maximum of 4 people. 
+-	You are welcome to register either as an Individual or with your pre-formed teams.
+-	Selection of synopsis for Round 2 will be examined by the expert and it will be final.
+
+2. Round -2 Prototype development
+
+-	Prototype must be developed entirely during the Hackathon within the 6 hours duration. 
+-	You may use open source libraries and other freely available systems / services such as Google Maps, Facebook Connect, Twitter feeds etc or if you have any proprietary tool or library you can use it.
+-	All team are examined during the development of prototype. 
+
+
+3. Round -3  Demo & Presentations
+-	Panel of judge(s)�s decisions will be final for the winners.

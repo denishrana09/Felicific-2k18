@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cultural_relative_1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <!--tools:context="com.example.charmi.myapplication.OffStageActivity"-->
+    <!--tools:showIn="@layout/app_bar_main"-->
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cultural_day1_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/treasure" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Treasure Hunt  [Scavanger Hunt]"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="11:00 to 02:30"
+                                    android:textAlignment="inherit"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Campus"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cultural_day1_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/mehndi" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Mehendi Comp."
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp"
+                                    tools:text="name" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="11:00 to 12:00"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp"
+                                    tools:text="time" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Center Foyer Stage"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp"
+                                    tools:text="Place" />
+
+                                <Button
+                                    android:id="@+id/mehendi_1_2_showmore"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textAllCaps="false"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cultural_day1_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/hairsty" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Make up, Hair style"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="11:00 to 12:15"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp"
+                                    tools:text="time" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Center Foyer Stage"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp"
+                                    tools:text="Place" />
+
+                                <Button
+                                    android:id="@+id/makeup_1_3_showmore"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textAllCaps="false"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cultural_day1_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="210dp"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/oneminutegame" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="1 Min. game show"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp"
+                                    tools:text="name" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="01:30 to 03:30"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp"
+                                    tools:text="time" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Behind library garden"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp"
+                                    tools:text="Place" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cultural_day1_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/snake" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Snake and Ladder"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp"
+                                    tools:text="name" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="02:30 to 04:30"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp"
+                                    tools:text="time" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Center foyer stage"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp"
+                                    tools:text="Place" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cultural_day1_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/karaoke" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Karaoke"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp"
+                                    tools:text="name" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="11:00 to 04:00"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp"
+                                    tools:text="time" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Garden Area"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp"
+                                    tools:text="Place" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                </LinearLayout>
+
+            </android.support.v4.widget.NestedScrollView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

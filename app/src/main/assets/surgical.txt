@@ -1,0 +1,46 @@
+ The Surgical Attack
+
+Target Participants: Semesters 2, 4, 6 students(All branch)
+
+Description: The event is about coding and decoding skills of participants, to be judged as mentioned in description of various rounds.
+
+Number of Rounds: 3
+
+Team size: 2 members
+
+Excepted strength/skill of participants: General Knowledge, Aptitude, Digital Electronics
+
+Registration fees per team: Rs. 60
+
+Name of Faculty Coordinator(s): Prof. Shweta Gaur & Prof. Heta Shah 
+
+Name of Student Coordinator(s): 
+
+1.	Khyati Mittal
+2.	Nirav Makwana
+3.	Dhruv Patel 
+
+Event Detail : 	
+Round 1: Elimination Round 
+
+Test will be conducted on the basis of which the qualifying teams will go to the next round.
+
+Time Duration: 20 Minutes
+
+Round 2: The Decipher 
+
+Each team will be given a set of Boolean equation, which they have to solve in given time and accordingly points would be allocated to the team. The points earned in this round will be added to the points of final round to decide the winners of the event. 
+
+Time Duration: 20 Minutes 
+
+Round 3: Battlefield 
+
+There is a ongoing war field, mapped in the form of a matrix. The location of submarine on this matrix is to be decoded by the team to save its submarine and destroy the enemys. One member of the each team will be knowing the mapping of the enemy teams and they will try to communicate the information with their respective partners via codes. The code once received would point the block of a matrix and the recipient team member will destroy it. The team which will cause as much as damage will win the war .
+
+
+Time Duration: 15 Minutes
+
+Rules :
+1. You need to bring the receipt as well as your identity card , without that entry will not be permitted. 
+2.  Use of Mobile phone is strictly prohibited.
+3.  In case of any despute, Decision taken by the co-ordinators will be final.

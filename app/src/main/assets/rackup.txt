@@ -1,0 +1,35 @@
+Rack Up the RADAR (RADAR design workshop)
+
+Target Participants: All B. Tech. and M. Tech. students
+
+Description: This Workshop is aimed to teach students about basics of Arduino, servo motors and serial communication. The design uses Arduino, Servo motor, Sonic sensors and processing software. The graphical representation of object on laptop screen along with details of distance and angle at which object is detected is to be made available.
+
+The Number of Phases: 2
+
+Team size: 2 Members only /-
+
+Expected skill of participants: Basic C Programming and Arduino Basic.
+
+Registration fees per team: Rs. 500 /-
+
+Name of Faculty Coordinator(s): Prof. Marmik Soni
+
+Name of Student Coordinator(s): Jenish Rudani (+91 70165 22518) 
+Support Team: Drashya Undhad, Rahul Ajmeriya, Charmi Doshi, Roohi Chaudhri
+
+Phase 1: Basics
+ 
+In this phase we will teach basics of Arduino, Servo Motor and Sonic Sensor. Participants will be able to make blink and serial data communication. At the end of this phase, therell be a quiz and an assignment code to be designed by participants.
+
+Time Duration: 50 Minutes.
+
+Phase 2: Implementation of Radar 
+
+In This Round Students will implement the circuit. Then well teach the logic of Arduino code for the radar.
+
+Time Duration: 70 Minutes.
+
+Java code for the processing software will be illustrated to student. Required material (soft copies, datasheets, demo codes etc.) will be provided. 
+
+Rules:
+1.	Students must bring one laptop and one Arduino Board (any).

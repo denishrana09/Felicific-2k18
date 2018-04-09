@@ -1,0 +1,100 @@
+CENTRAL TECHNICAL EVENTS
+
+ROBOTICS
+
+Name of event:WARBOTS
+
+Description: ATTACKING YOUR OPPONENTS WITH YOUR ROBOT
+
+Tagline: War does not care about who is right, only who is left.
+
+Registration fees per team: Rs.  250
+
+Name of faculty coordinators: 	Prof. Mahveer Chavada
+
+Rounds scheme:
+
+Number of rounds will be decided on the basis of number of participants. Each round will comprise sub-rounds of five minutes. Participants should come with their own robot.
+
+RULES:
+-	Max.three participants will be allowed to operate robot.
+-	Participants have to describe their robot and its every mechanism in front of judges before starting of an event. Only after passing this round, participants are allowed to place their robot in arena.  
+-	A robot that is deemed unsafe by the judges after the match has begun will be disqualified and therefore will be declared the loser. The match will be immediately halted and the opponent will be awarded a win.
+-	Teams not reporting on call from organizers will be disqualified. 
+-	A robot is declared victorious if its opponent is immobilized.
+-	A robot will be declared immobile if it cannot display linear motion of at least one inch in a timed period of 1 min. A bot with one side of its drive train disabled will not be counted out if it can demonstrate some degree of controlled movement. In case both the robots remain mobile after the end of the round then the winner will be decided subjectively.
+-	If a robot is thrown out of the arena the match will stop immediately, and the robot still inside the arena will automatically be declared as the winner of that round.
+-	Robots cannot win by pinning or lifting their opponents. Organizers will allow pinning or lifting for a maximum of 30 seconds per pin/lift after that the attacker robot will be instructed to release the opponent. If two robots become entangled or a crushing or gripping weapon is employed and becomes trapped within another robot, then the competitors should make the timekeeper aware, the fight should be stopped and the robots separated by the safest means.
+-	Each team will be given 5 minutes for maintenance free after each round.
+-	For each minute used extra than given time, 10 points would be deducted.
+-	Team using more than 10 minutes of maintenance time in a match will be disqualified.
+-	Points will be taken into account only if there is no winner based on the immobilization criteria.
+-	Point Scoring - Pinning Down = 15 points 	Aggressive attack / Damage = 50 points
+-	The team violating the above rules will be disqualified.
+-	Judges decision will be final and binding to all.
+-	The Core committee members reserve the right to change any of the above-mentioned rules at any time of an event.
+-	Any type of misbehaviour with judges or any organising committee student will lead disqualification of team. 
+-	Participants are required to stay up to date with the website.
+
+Damage  Through deliberate action, a robot either directly or indirectly reduces the functionality, effectiveness or defensibility of an opponent. Damage is not considered relevant if a robot inadvertently harms itself.
+
+Tactics  The robot exhibits a combat plan that exploits the robot's strengths against the weaknesses of its opponent. Tactics is also defined as a robot exhibiting a deliberate defence plan that guards its weaknesses against the strengths of the opponent.
+
+Control  Control means a robot is able to attack an opponent at its weakest point, use its weapons in the most effective way, and minimize the damage caused by the opponent or its weapons.
+
+Offence  Offence is judged by the frequency, severity, boldness and effectiveness of attacks deliberately initiated by the robot against its opponent. If a robot appears to have accidentally attacked an opponent, that act will not be considered offence.
+
+SPECIFICATIONS: -
+
+Dimensions:
+-	The machine should fit in a box of dimensions 60 cm x 60 cm x 100 cm (l  b  h). The external device used to control the machine or any external tank is not included in the size constraint & weight constrain (e.g. hydraulic cylinder etc.).
+-	The machine should not exceed 50 kg of weight.
+
+Robot Control Requirements:
+-	The machine can be controlled through wired or wireless remote. Details of battery and power given below.
+-	Remote control systems from toys might be used. Remote control systems available in the market may also be used.
+-	For teams using remote control systems, they must have at least four frequencies wireless remote-control circuits or two dual control circuits which may be interchanged before the start of the race to avoid frequency interference with other teams. The case of any interference in the wireless systems will not be considered for rematch or results.
+-	In case of wired bots, the wires should remain slack at any instant during the fight. All the wires coming out of the machine should be stacked as a single unit. Also, the wires should be projected 500mm above the ground to avoid entanglement. 
+
+Battery and Power:
+-	The machine can be powered electrically only. Use of an IC engine in any form is not allowed. Onboard batteries must be sealed, immobilized-electrolyte types (such as gel cells, lithium, NiCad, NiMH, or dry cells). The electric voltage between 2 points anywhere in the machine should not be more than 24 V DC at any point of time.(AC supply is not allowed or not going to be provided ).
+-	Change of battery will not be allowed during the match. It can only be replaced in between the matches.
+-	It is suggested to have extra battery and wires ready and charged up during competition so that on advancing to next level, you don't have to wait or suffer due to uncharged battery.
+
+Weapons Systems:
+Robots can have any kind of cutters, flippers, saws, lifting spinning hammers etc. as weapons with following exceptions and limitations.
+
+1.	Liquid projectiles.
+2.	Any kind of inflammable liquid.
+3.	Flame-based weapons.
+4.	Any kind of explosive or intentionally ignited solid or potentially ignitable solid.
+5.	Nets, tape, glue, or any other entanglement device.
+6.	High power magnets or electromagnets.
+7.	Radio jamming, Tasers, tesla coils, or any other high-voltage device.
+8.	Tethered or un-tethered projectiles.
+9.	Any type of pneumatic or hydraulic weapon system.
+
+Criteria for Victory:
+-	A robot is declared victorious if its opponent is immobilized.
+-	A robot will be declared immobile if it cannot display linear motion of at least one inch in a timed period of 1 min.
+-	In case both the robots remain mobile after the end of the round then the winner will be decided on performance.
+-	If a robot is thrown out of the arena the match will be stopped immediately, and the robot still inside the arena will be automatically declared as the winner of that round.
+-	Points will be given on the basis of Aggression, Damage, Control, Strategy and Technology.
+
+SAFETY:
+-	The machine would be checked for its safety before the competition and the team would be disqualified if their machine is found unsafe. 
+-	Participants are expected to abide by the rules & should co-operate with the organizers. 
+-	All participants build and operate robots at their own risk. Please take care, not to hurt yourself or others while building, testing and competing.
+
+Date of Event:
+Team size: Max. 5 participants per team.
+For more details:
+-	 Kush patel-8401130055
+  kushpatel.2408@gmail.com
+-	Nishank Shah-7698460684
+nishank99shah@gmail.com
+	-	Saurabh-9586146210
+  saurabhsingh2496@gmail.com
+-	Krushang Raulji-7874591937
+krushangraulji1438@gmail.com
+

@@ -1,0 +1,57 @@
+ROBO-RACE
+
+Description: COMPETING TO FINISH THE RACE TRACK IN MINIMUM TIME
+
+The number of rounds: 3
+
+
+Team Size: 3 Member maximum
+
+Expected Strength/skill of participants: Basic Robot making skills  are required
+
+Registration fees per team: Rs.  200
+
+Name of faculty coordinators: 	 Prof.H.S.Shah 
+			 Prof.S.P.Gaur
+Name of Student coordinators:
+1)	Chauhan Dushyant
+2)	Rana Karan
+3)	Dabhi Jayesh
+4)	Khokhariya Kumpal
+5)	Gehlot Jigar
+6)	Davda Jay
+
+Round 1: Elimination Round
+In this round, Robo Car has to complete the path by helpof all the member in minimum time.The team which will complete this task as fast as possible will be selected for 2nd round .
+Round2:   Semi Final
+In this round, the Robo will have to complete the defined path, consisting of  different types of hurdles.
+The time taken should be minimum to get to the next and the final round.
+Round3: Grand Finale
+In this round, the remaining teams will have to complete the path in as much less time as possible to win the prize. The final path will also be consisting of different obstacle. 
+Rules:
+1.	The competition is based on time trail system. There will a qualifying round for each team.
+2.	Hand touches are allowed with penalty of 10 seconds. For each hand touch, penalty time will be added further to overall time required by robot for completion of specified round. 
+3.	Your robot must be ready when call is made for your team.
+4.	Robot  must not contain any readymade kits.
+5.	Every participant must remain present 45 minutes before of starting time of event.
+6.	Team members should not misbehave with other team member and coordinators.
+7.	Team member should not take help of another person from out of team.
+8.	Decision about your robot will be taken by the organizers.
+
+Arena:
+1.	Track width is 40 cm.
+2.	The track surface and course line may have unevenness.
+3.	There will be certain obstacles in the race track which will try to slow down the robot.
+4.	Obstacles like slope, bridge, oil surface, bump, rock, etc. will be there.
+
+Robot specifications:
+1.	 The maximum dimension of the robot cannot be exceed 26 x 26 cm (l x b).
+2.	 The robot may be wired or wireless.
+3.	 The length of the wire (for wired bots) should be long enough to cover the whole track and wire should remain slack during the complete run.
+4.	 Max weight must not exceed 6 kg.
+5.	The power supply will be allowed maximum up to 24Volt.
+6.	The minimum distance between two tyres should be 11 cm (with respect to width).
+
+For more details:
+-	Chauhan Dushyant  Mo.-9737242762 E-Mail: drahul3.jd@gmail.com
+-   Jayesh Dabhi Mo.-8460491715 E-Mail: dushchauhan.97@gmail.com

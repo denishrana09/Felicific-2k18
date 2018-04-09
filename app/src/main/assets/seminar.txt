@@ -1,0 +1,37 @@
+				Seminar
+
+Description: Technical seminar based on currently enthralling   topics
+
+Target Participants: Semester 2, 4, 6
+
+Target Department: Any Department
+
+Team Size: 1 member
+
+Prerequisites: Basic Technical Knowledge
+
+Registration Fees: Rs. 40 
+
+Seminar Duration : 2:30 Hour
+
+Seminar Venue : DDU Seminar Hall.
+
+Name of faculty coordinators:
+1.	Prof. Archana Vyas
+2.	Prof. Sunil Vithlani
+
+Name of student coordinators:
+1.	Aditya Mehta - (+91) 9408257767
+2.	Malav Parekh - (+91) 7573800014
+
+TitleOf Seminar : Cloud computing and IOT, 
+
+Outline:-
+1. Introduction to Cloud computing and IOT
+2. Demo using Azure
+3. Purpose and usefulness of technology
+4. Current trends in it.
+5. Limitations 
+6. Future Aspects 
+
+Key Person : Seminar will be conducted by Microsoft industry person, 

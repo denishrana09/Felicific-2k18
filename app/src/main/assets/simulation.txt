@@ -1,0 +1,41 @@
+Simulation Contest (MATLAB, Verilog, Microcontroller)
+
+
+Description: There are 3 tracks of simulation included:
+1.	MATLAB (Communication/Microwave& Antenna/Image Processing)
+2.	Verilog (Digital Logic implementation using Quartus)
+3.	Microcontroller (Assembly)
+
+Participants can take part in any one of the following tracks based on their skills.
+
+Team size: 2 members only
+
+Expected strength/skill of participants: Participants should have knowledge of MATLAB, Proteus for 8051 Microcontroller Simulation and Quartus for Verilog HDL.
+
+Registration fees per team: Rs. 50 per Team
+
+Name of Student Co-ordinator(s):
+Pratik Gupta (7990617385), Aashlesh Parekh, Devansh Thakkar, Kartik Shah	.
+
+Rounds scheme
+Round 1: Debugging
+
+1.	Each participant is required to solve errors in given code within 30 minutes.
+
+Time Duration: 30 minutes
+
+Round 2: Simulation
+
+1.	Participants will have to simulate given problem with desired result within 1 Hour. If none of the participants are able to obtain the output, the winner will be declared on the basis of correctness of the algorithm implemented.
+
+Time Duration: 1 Hour
+
+Round 3: (For Microcontroller Track only):
+
+Sample program is required to modify to meet the given functionality. 
+
+Rules:
+1.	Hard copy of book is allowed for technical help.
+2.	Instruction set for 8051 MCU will be provided for reference.
+3.	Each round is an elimination round, qualifying participants will get into next round.
+4.	Coordinators decision will be final in any dispute.

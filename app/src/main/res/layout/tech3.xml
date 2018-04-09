@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tech_relative_3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <!--tools:context="com.example.charmi.myapplication.OffStageActivity"-->
+    <!--tools:showIn="@layout/app_bar_main"-->
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/rackup" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Rack Up the Radar "
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="08:30 am "
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="EC Lab 1"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/rack_up_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/hydroarm" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Hydro-Arm "
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="09:00 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Narayan Bhavan"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/hydroarm_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/seminar" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Talk on (Expert lecture) "
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="09:00 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Seminar Hall"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/hydaruliclift" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Hydraulic Lift"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="09:30 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Highway Lab (Narayan Bhavan)"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/hydroliclift_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/surgical" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="The Surgical Attack
+"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="10:00 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="IC Dept (Narayan Bhavan)"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/surgical_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/elite" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Elite Talks
+"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="10:00 AM"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Room No.22"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/elite_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/quizoquizar" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Quizo-Quizzare"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="10:30 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Room No.18,19"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/quizo_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/managementquiz" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Management Quiz"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="11:00 AM"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Seminar Hall"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/managementquiz_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/technodetect" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Techno-Detective"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="12:00 pm"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="IC Dept. (Narayan Bhavan)"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/technodetective_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/road_runner" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+
+                                    android:text="Road Runner"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="12:00 pm"
+
+                                    android:textAlignment="inherit"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+
+                                    android:text="Highway Lab (Narayan Bhavan)"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/roadrunner_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/moviemaking" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+
+                                    android:text="Movie Making"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="01:00 pm"
+
+                                    android:textAlignment="inherit"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+
+                                    android:text="Class Room of MBA Dept."
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/moviemaking_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/workshop3d" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+
+                                    android:text="Workshop on 3D printing"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="01:00 pm"
+
+                                    android:textAlignment="inherit"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+
+                                    android:text="Seminar Hall"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/workshop3d_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/genisis" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+
+                                    android:text="Tech Genesis"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="01:00 pm"
+
+                                    android:textAlignment="inherit"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+
+                                    android:text="Room no.21"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/techgenisis_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/poignant" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+
+                                    android:text="Poignant Disport"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="01:30 pm"
+
+                                    android:textAlignment="inherit"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+
+                                    android:text="Opp. to MMH"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/poignant_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/filmotsav" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+
+                                    android:text="Filmotsav"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="02:00 pm"
+
+                                    android:textAlignment="inherit"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+
+                                    android:text="MMH"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/filmotsav_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/techraider" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+
+                                    android:text="Tech Raiders"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="02:30 pm"
+
+                                    android:textAlignment="inherit"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+
+                                    android:text="Highway Lab (Narayan Bhavan)"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/techraiders_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/wizofbiz" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+
+                                    android:text="Wizard of Biz"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="02:00 pm"
+
+                                    android:textAlignment="inherit"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+
+                                    android:text="IC Dept (Narayan Bhavan)"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/wizardofbiz_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/troubleshoot" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+
+                                    android:text="Troubleshoot"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="08:30 am"
+
+                                    android:textAlignment="inherit"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+
+                                    android:text="Class No.24"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/troubleshoot_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/chemequiz" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+
+                                    android:text="Chem-e-quiz"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="09:00 am"
+
+                                    android:textAlignment="inherit"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+
+                                    android:text="Class No.11"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/chemequiz_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/technotalk" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+
+                                    android:text="Technotalk"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="10:30 am"
+
+                                    android:textAlignment="inherit"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+
+                                    android:text="MMH"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/technotalk3_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day3_21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/businessmodel" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+
+                                    android:text="Business Model"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="02:00 pm"
+
+                                    android:textAlignment="inherit"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+
+                                    android:text="MBA Dept. classroom"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/businessmodel_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                </LinearLayout>
+
+            </android.support.v4.widget.NestedScrollView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

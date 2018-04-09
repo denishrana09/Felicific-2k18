@@ -1,0 +1,44 @@
+CodeJam
+
+Target Participants: Semesters 2, 4, 6 CE IT EC
+
+Description: College Level contest which will challenge students to improve their coding and thinking capability.
+
+The Number of Rounds: 3
+
+Team size: 1 member only
+
+Expected strength/skill of participants: basic programming concepts, logic development, simple math.
+
+Registration fees per team: Rs. 40
+
+Name of Faculty Coordinator(s): Prof. Vivek S. Patel
+
+Name of Student Coordinator(s):
+Vaibhav Dodiya(M:8866532842 email: vaibhav.dodiya143vd@gmail.com) 
+Bhargav Lad(M:8866051523 email: ladbhargav97@gmail.com)	
+
+Round 1: Pen-n-paper based Elimination Round
+
+Pen-n-paper round with fundamental multiple choice questions of different programming concepts and features.
+Qualification to the next round will be based on ranking or cut-off marks.
+Time Duration: 45 min
+
+Round 2: Lazy Coder (using computer)
+
+Participants of the second round will be given certain problems that they need to write small programs for it and will be ranked according to the problems solved and the points they acquire in total.
+Qualification to the next round will be based on their ranking.
+Time Duration: 90-120 min
+
+Round 3: Solve Programing Problems (using computer)
+
+Each team will be set of questions for which they will be asked to implement optimized code. 
+Winner will be chosen on maximum number of correct implementation in least time.  
+Time Duration: 120 min+
+
+Rules:
+
+1.	Final result will be based on number of correct implementation in least amount of time.
+2.	Participants will not be allowed to access internet.
+3.	Tie-Breaker: Indentation, Code Re-use and Use of language specific features.
+4.	Decisions taken by the judge is absolute and binding.

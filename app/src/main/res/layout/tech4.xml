@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tech_relative_4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <!--tools:context="com.example.charmi.myapplication.OffStageActivity"-->
+    <!--tools:showIn="@layout/app_bar_main"-->
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day4_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/chemoart" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Chemo-art(Round-1) "
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="08:00 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Class no.24 "
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/chemoart_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day4_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/chemesnap" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Chem-e-snap(Winner ) "
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="09:00 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Central foyer "
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/chemesnap_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day4_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/mechmystro" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Mech Mystro "
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="09:00 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Narayan Bhavan "
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/mechmystro_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day4_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/resist" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Resistance Rapture "
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="09:00 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Room No. 21, 22 "
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/resistance_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day4_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/simulation" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Simulation Contest"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="09:00 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="EC Dept Lab 7,8"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/simulation_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day4_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/seminar" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Seminar CL"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="09:00 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Seminar Hall"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day4_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/technotalk" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Technotalk"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="10:30 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="MMH"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/technotalk4_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day4_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/autocad" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="AutoCAD Workshop "
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="01:00 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Dental Hall"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/autocad_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day4_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/fifa18" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Game(FIFA18)"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="02:00 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="IT Dept. LAB"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/fifa_it_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day4_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/clashroyale" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Game(ClashRoyal)"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="02:00 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="IT Dept. LAB"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/clashroyal_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day4_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/respectgeek" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Respect The Geek"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="02:00 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="IT Dept. LAB"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/respectgeek_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day4_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/chemillusion" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Chem-illusion(SLOT 2)
+"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="02:15 pm"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="Anchor Dept.
+"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/chemillusion_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day4_14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/codecrunchit" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Code Crunch"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="10:30 am"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="IT Dept. Lab"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/codecrunch_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/tech_day4_15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:clickable="true"
+                        android:elevation="25dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:longClickable="true"
+                        android:translationZ="10dp"
+                        app:cardCornerRadius="3dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/technomine" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/Techno_mine"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="10dp"
+
+                                    android:text="Techno Mine"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="03:30 pm"
+                                    android:textAlignment="inherit"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="19sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="3dp"
+                                    android:text="IT Dept. Lab"
+
+                                    android:textColor="@android:color/black"
+                                    android:textSize="18sp" />
+
+                                <Button
+                                    android:id="@+id/technomine_btn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="show more"
+                                    android:textSize="12sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                </LinearLayout>
+
+            </android.support.v4.widget.NestedScrollView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+Resistance Rapture
+
+Target Participants: B. Tech. first year students
+
+Description: Event based on Basic Electrical and Electronics Engineering 
+
+The Number of Rounds: 2
+
+Team size: 2 members only
+
+Expected strength/skill of participants: Basic technical knowledge of BEEE and EP
+
+Registration fees per team: Rs. 40 per team.
+
+Name of Faculty Coordinator(s): Prof. H. B. Rathod and Prof. J. M. Shah
+
+Name of Student Coordinator(s): 
+Anchal Shah, Rucha Shah, Palakshi Chokshi, Ajmeriya Rahul
+
+Round 1: Elimination Round 
+Basic questions of BEEE and EP, and Identification of: Components, Circuits, and Devices.
+
+Time Duration: 1 hour 45 Minutes.
+
+Round 2: 
+Each team will be given input and output and they have to design the circuit to get desired output on paper as well as implement it within time specified. Participants can take any component from the component box. The team with minimum components will win this round.
+
+Time Duration: 1 Hour 30 Minutes.

@@ -1,0 +1,38 @@
+ Code Crunch
+
+Target Participants: students from semesters 2,4,6 of   IT,CE,MCA,BCA,EC Branches
+
+Description: Programming Competition
+
+The No. of Rounds: 2
+
+Team Size: 1(individual)
+
+Expected strength /Skill of participants: Programming
+
+Registration fees per team: Rs.30
+
+Name of faculty Coordinators:
+1.	Prof. Ravindra Vyas
+2.	Prof. Vimal Vachhani
+3.	Prof. Jayesh Malaviya
+
+Name of Student Coordinators:
+	1. Parth Jariwala  (+91) 9558485037
+	2. Nirav Joshi  (+91) 9574087493
+
+Round 1: Quiz cum Elimination Round
+
+	There will be online quiz on programming language.
+	Time Duration: 30 mins.
+	
+Round 2: Coding Round
+
+	There will be coding Round on codechef.
+	Time Duration: 1.15 hours.
+	
+Rules:
+
+1. No plagiarism.
+2. Try breaking will be based on time taken in respective rounds.
+ 

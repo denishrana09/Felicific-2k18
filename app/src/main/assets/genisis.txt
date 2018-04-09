@@ -1,0 +1,59 @@
+Tech Genesis 
+
+Target Participants:  B. Tech. /M. Tech. students [EC/ IC/ CE Students]
+
+Description: Tech genesis offers the technological ladder which will expose you to the competitive corporate world. First round comprise of aptitude question, second round comprise of some technical and comprehensive type question and the final will be an Auction and Marketing round.
+
+The Number of Rounds: 1
+
+Team size: 2 members only
+
+Expected strength/skill of participants:  Technical exposure in competitive corporate world
+
+Registration fees per team: Rs. 50 per Team
+
+Name of Student Co-ordinator(s): Prof. S. S. Thavalapill and Prof. H. M. Patel 
+
+Name of Student Co-ordinator(s): 
+
+Sneha Jadav, Gaurang Patel
+
+Rounds Scheme  
+Round 1: SUDOKU Solving based on Aptitude Questions
+1.	The main aim of this quiz is to solve Sudoku puzzle.
+2.	The missing number in the blocks denoted by alphabet in superscript can be obtained by solving respective question.
+3.	The option number of the answer is the missing number in that respective block.
+
+Time Duration: 30 minutes
+ 
+Round 2: It consists of two part [Team have to divide themselves into two part on their own]
+PART 1: DIGITAL AND BOOLEAN SOLVING 
+1.	Question Paper consists of several MCQs or short questions based on Boolean reduction, Circuit Reduction and other basic DIGITAL concepts.
+
+PART 2: ENCRYPTION-DECRYPTION
+1.	Question Paper consist of a comprehensive passage and then 10 questions based on the given passage. Passage contains several words encoded, which has to be decoded based on the key provided in the passage itself or in the question asked.
+2.	Encoded words/hints in the passage are in italics and underlined.
+
+Time Duration: 1 Hour
+
+Round 3: Tech Auction and Marketing
+1.	Teams will get the opportunity to buy different virtual electronic modules from the virtual market through auction (predefined max limit of total virtual money will be allocated before the auction).
+
+2.	With the help of virtual modules, that the team have brought, they have to make some electronic product whose marketing has to be done with small presentation (not more than 5 minutes) and advertisement.   
+
+Time Duration: 1 Hours 50 minutes
+Rules: 
+Round 1: [Elimination round if number of team exceeds 10]
+1.	Time limit: 30 mins.
+2.	Use of any electronic devices (calculator, etc.) is not allowed.
+
+Round 2: [Elimination round so that only 5 team go through final round]
+1.	Time limit: 1 Hrs.
+2.	Use of any electronic devices (calculator, etc.) is not allowed.
+
+Round 3: Final Round
+1.	Bidding of (Virtual) Electronic Components: 20 mins.
+2.	Maximum time for answering questions and preparing Presentation: 45 mins.
+3.	Max time for delivering presentation: 4 mins.
+4.	Max time for representing advertisement:1 min
+5.	Questionnaire with the judges: max 5 mins.

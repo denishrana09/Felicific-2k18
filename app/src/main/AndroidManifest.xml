@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.charmi.myapplication">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fel_logo"
+        android:label="Felicific 18"
+        android:roundIcon="@drawable/fel_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".Day1"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Day2"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Day3"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Day4"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".Day5"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name=".CulturalShowMore" />
+
+        <activity android:name=".ShowMoreActivity" />
+        <activity android:name=".about_felicific"></activity>
+    </application>
+
+</manifest>
